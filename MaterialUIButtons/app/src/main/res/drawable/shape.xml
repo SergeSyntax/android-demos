@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <padding android:top="@dimen/fab_margin"
+        android:bottom="@dimen/fab_margin"
+        android:left="@dimen/fab_margin"
+        android:right="@dimen/fab_margin"
+        />
+    <stroke
+        android:width="3dp"
+        android:color="@color/design_default_color_primary"
+        />
+
+    <solid android:color="@color/design_default_color_primary"/>
+
+    <gradient android:angle="180" android:startColor="#cede" android:endColor="#00adee" />
+</shape>
